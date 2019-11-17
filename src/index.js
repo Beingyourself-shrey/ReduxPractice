@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import AppRedux from './App';
 import { Provider } from 'react-redux';
-import { bankStore } from './reducers/combineReducers';
+import { bankStore } from './reducers/store';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Provider store={bankStore}>
